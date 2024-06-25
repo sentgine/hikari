@@ -1,0 +1,37 @@
+{
+    "name": "sentgine/hikari",
+    "description": "A very light PHP framework for building blazingly fast web applications.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Init\\": "bootstrap/",
+            "Console\\Commands\\": "console/Commands"            
+        }
+    },
+    "authors": [
+        {
+            "name": "Sentgine",
+            "email": "sentgine@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1",
+        "sentgine/arise": "^2.0.0",
+        "sentgine/ray": "^1.0"
+    },    
+    "scripts": {
+        "up" : [
+            "composer dump-autoload",
+            "composer update"
+        ],
+        "deploy": [
+            "composer install --no-dev"
+        ]
+    },
+    "require-dev": {
+        "symfony/var-dumper": "7.2.x-dev"
+    }
+}

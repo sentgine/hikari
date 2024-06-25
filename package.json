@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss -i ./app/Views/resources/app.css -o ./public/app.css --watch --minify",
+    "sync": "browser-sync start --proxy='127.0.0.1:8888' --files='app'"
+  }
+}
