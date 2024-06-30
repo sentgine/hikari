@@ -10,6 +10,7 @@ Hikari is a lightweight PHP framework designed to provide a minimalistic structu
 - **Routing**: Define and manage application routes effortlessly.
 - **Controllers**: Create controllers to handle various application logic.
 - **Views**: Render views to present data to the end-user.
+- **Middleware Support**: Implement middleware for handling pre-request processing.
 
 ## Requirements
 - PHP 8.1 or higher.
