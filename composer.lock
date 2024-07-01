@@ -229,16 +229,16 @@
         },
         {
             "name": "sentgine/ray",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sentgine/ray.git",
-                "reference": "b6a000791daa16ad03924aed2a4fec2ad3950320"
+                "reference": "9663b0f194d205f70f2d3782d96fbf52bede0c43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sentgine/ray/zipball/b6a000791daa16ad03924aed2a4fec2ad3950320",
-                "reference": "b6a000791daa16ad03924aed2a4fec2ad3950320",
+                "url": "https://api.github.com/repos/sentgine/ray/zipball/9663b0f194d205f70f2d3782d96fbf52bede0c43",
+                "reference": "9663b0f194d205f70f2d3782d96fbf52bede0c43",
                 "shasum": ""
             },
             "require": {
@@ -267,9 +267,9 @@
             "description": "Ray is a lightweight PHP library for building MVC frameworks.",
             "support": {
                 "issues": "https://github.com/sentgine/ray/issues",
-                "source": "https://github.com/sentgine/ray/tree/v1.0.3"
+                "source": "https://github.com/sentgine/ray/tree/v1.0.4"
             },
-            "time": "2024-06-30T15:22:58+00:00"
+            "time": "2024-07-01T04:42:27+00:00"
         },
         {
             "name": "symfony/console",
