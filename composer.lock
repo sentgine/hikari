@@ -113,19 +113,20 @@
         },
         {
             "name": "sentgine/arise",
-            "version": "v2.0.3",
+            "version": "v2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sentgine/arise.git",
-                "reference": "3a0e114c620e24fbc4463d8f8a48dd955bcb7178"
+                "reference": "2ed578355daaad6d112fb8b8f578b38f4e324ecf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sentgine/arise/zipball/3a0e114c620e24fbc4463d8f8a48dd955bcb7178",
-                "reference": "3a0e114c620e24fbc4463d8f8a48dd955bcb7178",
+                "url": "https://api.github.com/repos/sentgine/arise/zipball/2ed578355daaad6d112fb8b8f578b38f4e324ecf",
+                "reference": "2ed578355daaad6d112fb8b8f578b38f4e324ecf",
                 "shasum": ""
             },
             "require": {
+                "php": "^8.1",
                 "sentgine/file": "^1.0",
                 "sentgine/helper": "^1.0",
                 "symfony/console": "6.4.x-dev"
@@ -149,23 +150,26 @@
             "description": "A simple and lightweight wrapper for creating console commands using PHP.",
             "support": {
                 "issues": "https://github.com/sentgine/arise/issues",
-                "source": "https://github.com/sentgine/arise/tree/v2.0.3"
+                "source": "https://github.com/sentgine/arise/tree/v2.0.4"
             },
-            "time": "2024-05-15T06:44:57+00:00"
+            "time": "2024-07-01T08:52:49+00:00"
         },
         {
             "name": "sentgine/file",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sentgine/file.git",
-                "reference": "5c18505e7d0a836775288f9cb6dc9ec4005fd7f0"
+                "reference": "caa4b8625067d030ff553f5222acbdd5cab70bcd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sentgine/file/zipball/5c18505e7d0a836775288f9cb6dc9ec4005fd7f0",
-                "reference": "5c18505e7d0a836775288f9cb6dc9ec4005fd7f0",
+                "url": "https://api.github.com/repos/sentgine/file/zipball/caa4b8625067d030ff553f5222acbdd5cab70bcd",
+                "reference": "caa4b8625067d030ff553f5222acbdd5cab70bcd",
                 "shasum": ""
+            },
+            "require": {
+                "php": "^8.1"
             },
             "type": "library",
             "autoload": {
@@ -186,9 +190,9 @@
             "description": "A simple wrapper around file system operations.",
             "support": {
                 "issues": "https://github.com/sentgine/file/issues",
-                "source": "https://github.com/sentgine/file/tree/v1.1.0"
+                "source": "https://github.com/sentgine/file/tree/v1.1.1"
             },
-            "time": "2024-04-19T06:31:12+00:00"
+            "time": "2024-07-01T08:53:19+00:00"
         },
         {
             "name": "sentgine/helper",
@@ -229,16 +233,16 @@
         },
         {
             "name": "sentgine/ray",
-            "version": "v1.0.4",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sentgine/ray.git",
-                "reference": "9663b0f194d205f70f2d3782d96fbf52bede0c43"
+                "reference": "490f35c6c71be4a47faced182381d2f0ec345d54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sentgine/ray/zipball/9663b0f194d205f70f2d3782d96fbf52bede0c43",
-                "reference": "9663b0f194d205f70f2d3782d96fbf52bede0c43",
+                "url": "https://api.github.com/repos/sentgine/ray/zipball/490f35c6c71be4a47faced182381d2f0ec345d54",
+                "reference": "490f35c6c71be4a47faced182381d2f0ec345d54",
                 "shasum": ""
             },
             "require": {
@@ -267,9 +271,9 @@
             "description": "Ray is a lightweight PHP library for building MVC frameworks.",
             "support": {
                 "issues": "https://github.com/sentgine/ray/issues",
-                "source": "https://github.com/sentgine/ray/tree/v1.0.4"
+                "source": "https://github.com/sentgine/ray/tree/v1.0.5"
             },
-            "time": "2024-07-01T04:42:27+00:00"
+            "time": "2024-07-01T09:00:57+00:00"
         },
         {
             "name": "symfony/console",
