@@ -18,7 +18,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=8.1",
+        "php": ">=8.2",
         "sentgine/arise": "^2.0.0",
         "sentgine/ray": "^1.0"
     },    
