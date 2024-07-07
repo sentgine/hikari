@@ -13,7 +13,7 @@ Hikari is a lightweight PHP framework designed to provide a minimalistic structu
 - **Middleware Support**: Implement middleware for handling pre-request processing.
 
 ## Requirements
-- PHP 8.1 or higher.
+- PHP 8.2 or higher.
 
 ## Installation
 You can install the package via Composer by running the following command:
