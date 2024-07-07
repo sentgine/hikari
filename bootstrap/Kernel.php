@@ -19,11 +19,7 @@ class Kernel
      */
     public function handle()
     {
-        DotEnv::load(ROOT_PATH . '/.env'); # Load environment variables
-
-        if (is_env_dev()) {
-            \Symfony\Component\ErrorHandler\Debug::enable(); # Enable debug mode
-        }
+        DotEnv::load(ROOT_PATH . '/.env'); # Load environment variables     
 
         require_once ROOT_PATH . '/routes/web.php'; # Load Routes
 
