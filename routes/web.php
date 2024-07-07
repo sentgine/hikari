@@ -10,4 +10,6 @@
 |
 */
 
-$route->get('/', [App\Controllers\Welcome::class, 'index']);
+use Sentgine\Ray\Route;
+
+Route::get('/', [App\Controllers\Welcome::class, 'index']);
